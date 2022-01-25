@@ -1,0 +1,32 @@
+{
+  "name": "crud-op",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.0.5",
+    "@strapi/plugin-users-permissions": "4.0.5",
+    "@strapi/strapi": "4.0.5",
+    "axios": "^0.25.0",
+    "sqlite3": "5.0.2",
+    "strapi-plugin-graphql": "^3.6.8"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "68ce6253-bb8e-432b-894d-87fad80be077"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

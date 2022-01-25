@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companies",
+    "displayName": "company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Enter company name",
+      "required": true
+    },
+    "headquarter": {
+      "type": "string",
+      "default": "Enter headquarter name",
+      "required": true
+    },
+    "ceo": {
+      "type": "string",
+      "default": "Current CEO",
+      "required": true
+    },
+    "employee": {
+      "type": "string",
+      "default": "Total number of working employee",
+      "required": true
+    },
+    "established": {
+      "type": "string",
+      "default": "Year of establishment",
+      "required": true
+    }
+  }
+}
